@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biya Florist</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Montserrat:wght@400;600&family=Great+Vibes&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <div id="header" align="center">
+        <h1>Biya Florist</h1>
+        Nganjuk, Perumahan Tanjung Green Regency
+    </div>
+
+    <div id="menubar" align="center">
+        <a href="">Beranda</a> |
+        <a href="profile.html">Profile</a> |
+        <a href="portofolio.html">Portofolio</a>
+    </div>
+
+    <div id="katalog" align="center">
+        <h4> katalog Biya Florist </h4>
+        <div class="produk">
+            <img src="img/Biya 1.jpeg" width="100">
+            <p>Bucket Mawar (A)</p>
+            <p>Rp 75.000</p>
+        </div>
+        <div class="produk">
+            <img src="img/Biya 2.jpeg" width="100">
+            <p>Bucket Mawar (B)</p>
+            <p>Rp 75.000</p>
+        </div>
+        <div class="produk">
+            <img src="img/Biya 5.jpeg" width="100">
+            <p>Hand Bouquet</p>
+            <p>Rp 150.000</p>
+        </div>
+        <div class="produk">
+            <img src="img/Biya 3.jpeg" width="100">
+            <p>Bucket Uang</p>
+            <p>Rp 75.000</p>
+        </div>
+        <div class="produk">
+            <img src="img/Biya 4.jpeg" width="100">
+            <p>Bucket Mawar Pita Satin</p>
+            <p>Rp 170.000</p>
+        </div>
+    </div>
+
+    <div id="konten">
+        <p>
+            Biya Florist merupakan usaha di bidang rangkaian bunga yang didirikan pada 23 April 2024, menjelang
+            kelulusan SMK. Usaha ini dirintis oleh Nabila Putri Ardina, yang kerap dipanggil Nabila. Ide pendirian usaha
+            ini berawal dari sebuah momen pribadi yang memberi pengaruh besar dalam hidupnya.
+        </p>
+
+        <p>
+            Saat itu, Nabila menerima bunga untuk pertama kalinya dari seseorang. Ia merasakan kebahagiaan dan
+            keistimewaan yang berbeda dari pengalaman sebelumnya. Bunga tersebut menjadi simbol perhatian yang tulus.
+            Momen itu terasa semakin berarti karena orang yang memberikannya juga baru pertama kali memberikan bunga
+            kepada seorang wanita. Pengalaman tersebut membuka cara pandang Nabila tentang nilai sebuah pemberian.
+        </p>
+
+        <p>
+            Sejak saat itu, Nabila memiliki keinginan untuk membuka usaha florist agar lebih banyak orang dapat
+            merasakan kebahagiaan yang sama. Ia melihat bahwa bunga dapat menjadi media untuk menyampaikan perasaan
+            dengan cara yang sopan dan berkelas. Dari niat tersebut, Biya Florist mulai dirintis secara mandiri. Usaha
+            ini dibangun dengan perencanaan yang bertahap dan visi jangka panjang.
+        </p>
+    </div>
+    <div style="text-align:center; margin:20px;">
+    <a id="waLink" target="_blank"
+        style="background:#25D366;color:white;padding:8px 14px;border-radius:18px;text-decoration:none;font-size:13px;">
+        Hubungi WA Biya Florist
+    </a>
+</div>
+
+    <script>
+        let nomor = "62895386144530";
+        let pesan = "Halo Biya!";
+
+        let link = "https://wa.me/" + nomor + "?text=" + encodeURIComponent(pesan);
+
+        document.getElementById("waLink").href = link;
+    </script>
+    <div id="footer" align="center">
+        Nabila Putri Ardina<br>2026
+    </div>
+
+</body>
+
+</html>

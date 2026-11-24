@@ -1,0 +1,105 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: linear-gradient(to right, #fff7f3, #ffe4e1);
+    margin: 0;
+}
+
+#header {
+    background: #FFDAB9;
+    padding: 25px;
+    border-bottom: 3px solid #FFB6C1;
+}
+
+#header h1 {
+    margin: 0;
+    color: #d46a6a;
+    font-family: 'Great Vibes', cursive;
+    font-size: 45px;
+    letter-spacing: 2px;
+}
+
+#menubar {
+    background: #FFB6C1;
+    padding: 10px;
+}
+
+#menubar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    margin: 0 10px;
+}
+
+#menubar a:hover {
+    color: #6b2e2e;
+}
+
+#katalog {
+    margin-top: 40px;
+}
+
+#katalog h4 {
+    font-family: 'Playfair Display', serif;
+    font-size: 24px;
+    color: #b76e79;
+    margin-bottom: 20px;
+    text-transform: capitalize;
+}
+
+.produk {
+    display: inline-block;
+    width: 180px;
+    margin: 10px;
+    padding: 15px;
+    text-align: center;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid #f3dede;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+}
+
+.produk:hover {
+    transform: translateY(-12px) scale(1.02);
+    box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
+}
+
+.produk:active {
+    transform: scale(0.96);
+}
+
+.produk img {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 18px;
+    margin-bottom: 12px;
+}
+
+.produk p:first-of-type {
+    font-family: 'Playfair Display', serif;
+    font-size: 16px;
+    color: #3a2b2b;
+    margin: 8px 0 4px;
+}
+
+.produk p:last-of-type {
+    font-size: 17px;
+    font-weight: 600;
+    color: #d17b88;
+    margin: 0;
+}
+
+#konten {
+    padding: 25px;
+    line-height: 1.7;
+    text-align: justify;
+    color: #444;
+}
+
+#footer {
+    background: #FFDAB9;
+    padding: 15px;
+    font-size: 13px;
+    border-top: 2px solid #FFB6C1;
+}

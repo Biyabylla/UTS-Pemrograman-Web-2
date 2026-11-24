@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solariye Food Court</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: linear-gradient(to right, #fdfbfb, #ffe0d6);
+        }
+
+        nav {
+            background: #ff7e5f;
+            padding: 15px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+        }
+
+        h1 {
+            color: #ff7e5f;
+        }
+
+        .hero img {
+            width: 90%;
+            height: 400px;
+            object-fit: cover;
+            border-radius: 15px;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn {
+            text-decoration: none;
+            color: white;
+            background-color: #ff7e5f;
+            padding: 12px 25px;
+            border-radius: 25px;
+            display: inline-block;
+            margin: 20px 0;
+            transition: 0.3s;
+        }
+
+        .btn:hover {
+            background-color: #e96a50;
+            transform: scale(1.05);
+        }
+
+        .section {
+            text-align: center;
+            margin: 40px 20px;
+            animation: fadeIn 1s ease;
+        }
+
+        .menu-container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        .card {
+            background: white;
+            width: 220px;
+            border-radius: 15px;
+            padding: 15px;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+        }
+
+        .card:hover {
+            transform: translateY(-8px);
+        }
+
+        .card img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .card h3 {
+            margin: 10px 0 5px;
+        }
+
+        .price {
+            color: #ff7e5f;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        footer {
+            text-align: center;
+            padding: 15px;
+            font-size: 12px;
+            color: #555;
+            background: white;
+            margin-top: 40px;
+        }
+
+        @media (max-width: 768px) {
+            .hero img {
+                height: 250px;
+            }
+
+            .card {
+                width: 90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        Solariye Food Court
+    </nav>
+
+    <header>
+        <h1>Welcome to Solariye Food Court!</h1>
+        <br>
+        <div class="hero">
+            <img src="img/foodcourt outdoor.jpg">
+        </div>
+
+        <a href="https://id.wikipedia.org/wiki/Solaria" target="_blank" class="btn">
+            Kunjungi Food Court
+        </a>
+    </header>
+
+    <div class="section">
+        <h2>Menu Makanan</h2>
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="img/Ayam Geprek.jpg">
+                <h3>Ayam Geprek</h3>
+                <p class="price">Rp 40.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Nasi Goreng Seafood.jpg">
+                <h3>Nasi Goreng Seafood</h3>
+                <p class="price">Rp 60.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Nasi Goreng Spesial.jpg">
+                <h3>Nasi Goreng Spesial</h3>
+                <p class="price">Rp 40.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Ayam Katsu.jpg">
+                <h3>Ayam Katsu</h3>
+                <p class="price">Rp 40.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Kimbab Solariye.jpg">
+                <h3>Kimbab Solariye</h3>
+                <p class="price">Rp 80.000</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Menu Minuman</h2>
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="img/Orange Juice.jpg">
+                <h3>Orange Juice</h3>
+                <p class="price">Rp 20.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Jasmine Tea.jpg">
+                <h3>Jasmine Tea</h3>
+                <p class="price">Rp 15.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Lemon Tea.jpg">
+                <h3>Lemon Tea</h3>
+                <p class="price">Rp 15.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Mineral Water.jpg">
+                <h3>Mineral Water</h3>
+                <p class="price">Rp 10.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Strawberry Smoothies.jpg">
+                <h3>Strawberry Smoothies</h3>
+                <p class="price">Rp 40.000</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section">
+        <h2>Menu Camilan</h2>
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="img/Udang Keju.jpg">
+                <h3>Udang Keju</h3>
+                <p class="price">Rp 30.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Lumpia Udang.jpg">
+                <h3>Lumpia Udang</h3>
+                <p class="price">Rp 30.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Siomay Ayam.jpg">
+                <h3>Siomay Ayam</h3>
+                <p class="price">Rp 25.000</p>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- DESSERT -->
+    <div class="section">
+        <h2>Menu Dessert</h2>
+        <div class="menu-container">
+
+            <div class="card">
+                <img src="img/Gelato.jpg">
+                <h3>Gelato</h3>
+                <p class="price">Rp 30.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Strawberry Mille Crepe.jpg">
+                <h3>Strawberry Mille Crepe</h3>
+                <p class="price">Rp 45.000</p>
+            </div>
+
+            <div class="card">
+                <img src="img/Fluffy Chocolate Chip Waffles.jpg">
+                <h3>Chocolate Chip Waffles</h3>
+                <p class="price">Rp 25.000</p>
+            </div>
+
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 Solariye Food Court</p>
+        <b>Powered By: Nabila Putri Ardina</b>
+    </footer>
+
+</body>
+
+</html>
